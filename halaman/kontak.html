@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontak</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- Menu web -->
+        <div>
+            <a href="../index.html">Home</a>
+            <a href="halaman/kontak.html">Kontak</a>
+        </div>
+        
+        <!-- Bagian judul utama -->
+        <div>
+            <h1>Kontak</h1>
+            <h2>Belajar mudah dan menyenangkan</h2>
+            <p>HTML penting untuk dipelajari <br>karena <span>bahan dasar</span> web.</p>
+        </div>
+        
+        <!-- Membuat form -->
+        <form>
+            <fieldset>
+                <legend>Form Utama</legend>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" placeholder="Nama Lengkap" id="nama">
+                <br>
+                <label for="pesan">Pesan Anda</label>
+                <textarea cols="30" rows="10" placeholder="Pesan.." id="pesan"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Info Tambahan</legend>
+                <label>Bahasa Pemrograman Yang di Kuasai</label><br>
+                <input type="checkbox" name="bhs_pemrograman" value="HTML" checked> HTML 
+                <input type="checkbox" name="bhs_pemrograman" value="CSS"> CSS
+                <input type="checkbox" name="bhs_pemrograman" value="JS"> JS
+                <input type="checkbox" name="bhs_pemrograman" value="PHP"> PHP
+
+                <label>Jenis Kelamin</label><br>
+                <input type="radio" name="gender" value="L" checked> Laki-laki
+                <input type="radio" name="gender" value="P"> Perempuan
+
+                <br>
+
+                <label>Domisili</label>
+                <select name="kota_domisili">
+                    <optgroup label="DKI Jakarta">
+                        <option value="Jaksel">Jakarta Selatan</option>
+                        <option value="Jakbar">Jakarta Barat</option>
+                    </optgroup>
+                    <optgroup label="Jawa Barat">
+                        <option value="Depok">Kota Depok</option>
+                        <option value="Bogor">Kota Bogor</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <input type="submit" value="Kirim Data">
+        </form>
+
+        <br><br>
+        <!-- Membuat table -->
+        <table border="1">
+            <caption>Data Siswa</caption>
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Kemampuan</th>
+                <th>&nbsp;</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Maulana Ahmad</td>
+                <td>HTML, CSS, JS</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maulana Ahmad</td>
+                <td>HTML, CSS, JS</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Maulana Ahmad</td>
+                <td>HTML, CSS, JS</td>
+            </tr>
+        </table>
+
+        <!-- Membuat list -->
+        <ul>
+            <li>Test List</li>
+            <li>Test List</li>
+            <li>Test List</li>
+        </ul>
+
+        <ol>
+            <li>Test List</li>
+            <li>Test List</li>
+            <li>Test List</li>
+        </ol>
+
+        <dl>
+            <dt>Test Judul</dt>
+            <dd>Test deskripsi, coba dulu aja</dd>
+            <dt>Test Judul</dt>
+            <dd>Test deskripsi, coba dulu aja</dd>
+        </dl>
+        <p>&copy; 2020 Ahmad Maulana &forall; &#8704;</p>
+    </body>
+</html>
