@@ -6,3 +6,22 @@ body {
     background-position: right; */
     background: rgb(187, 217, 235) url("gambar/webdev.png") no-repeat fixed right;
 }
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#text-panjang {
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
