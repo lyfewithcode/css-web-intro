@@ -31,3 +31,27 @@ h2 {
     line-height: 20px;
     word-spacing: 5px;
 }
+
+
+/* kondisi normal */
+.menu-item:link {
+    background: grey;
+}
+
+/* kondisi link dikunjungi */
+.menu-item:visited {
+    background: grey;
+    color: aqua;
+}
+
+/* mouse berada di atas link */
+.menu-item:hover {
+    background: green;
+    color: yellow;
+}
+
+/* link sedang di klik */
+.menu-item:active {
+    background: red;
+    color: white;
+}
