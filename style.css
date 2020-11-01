@@ -22,6 +22,11 @@ h2 {
 #text-pendek {
     font-size: 24px;
     font-weight: bold;
+    background: yellow;
+    width: 50%;
+    height: 200px;
+    max-width: 30%;
+    max-height: 100px;
 }
 
 #text-panjang {
