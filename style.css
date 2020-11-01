@@ -12,11 +12,13 @@ h1 {
     color: blue;
     text-align: center;
     text-decoration: underline;
+    display: inline;
 }
 
 h2 {
     text-align: center;
     text-transform: capitalize;
+    display: inline;
 }
 
 #text-pendek {
@@ -37,6 +39,12 @@ h2 {
     word-spacing: 5px;
 }
 
+.menu-item {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
 
 /* kondisi normal */
 .menu-item:link {
