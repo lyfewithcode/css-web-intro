@@ -29,6 +29,8 @@ h2 {
     height: 200px;
     max-width: 30%;
     max-height: 100px;
+    /* visibility: hidden; */
+    display: none;
 }
 
 #text-panjang {
