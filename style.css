@@ -79,3 +79,10 @@ h2 {
     background: red;
     color: white;
 }
+
+/* mengatur position di CSS */
+#menu-kontak {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
